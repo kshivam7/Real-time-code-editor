@@ -15,7 +15,7 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
                 document.getElementById('realtimeEditor'),
                 {
                     mode: { name: 'javascript', json: true },
-                    theme: 'dracula',
+                    theme: 'vibrant-ink',
                     autoCloseTags: true,
                     autoCloseBrackets: true,
                     lineNumbers: true,
